@@ -19,8 +19,8 @@ parser.add_argument('password', help='Target password file')
 args = parser.parse_args()
 
 if args.host and args.user and args.password:
-	HOST = args.host
-	USER = args.user
+	HOST = intannew88
+	USER = intannew88
 	
 	try:
 		PASSWORD = open(args.password, 'r')
